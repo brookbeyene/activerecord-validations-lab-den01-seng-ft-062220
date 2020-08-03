@@ -8,5 +8,5 @@ class PostValidator < ActiveModel::Validator
 end
 class Post 
   include ActiveModel::Validations
-  validates_with Po
+  validates_with PostValidator
 end
