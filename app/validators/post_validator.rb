@@ -1,4 +1,4 @@
-# class PostValidator < ActiveModel::Validator
-#   def Validate(record)
-    
-# end
+class PostValidator < ActiveModel::Validator
+  def Validate(record)
+    unless record.title.in()    
+end
