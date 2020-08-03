@@ -6,3 +6,7 @@ class PostValidator < ActiveModel::Validator
   end
     
 end
+class Post 
+  include ActiveModel::Validations
+  validates_with Po
+end
